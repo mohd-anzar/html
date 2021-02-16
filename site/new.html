@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HTML TUTORIAL</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    #ad{
+      float:left;
+      font-size:20px;
+      width:30%;
+      color:green;
+      background-color:white;
+      overflow:scroll;
+      height:100%;
+      position:fixed;
+     }
+    #ad ul{
+       padding:10px;
+    } 
+
+    article{
+      float:right;
+      width:70%;
+      background-color:white;
+      text-align:center;
+      
+     
+    }
+    article p{
+      background-color:lightgreen;
+    }
+    article h2{
+      background-color:lightblue;
+    }
+    articles h3{
+      background-color:grey;
+    }
+    article pre{
+     font-size:20px; text-align:left;
+    }
+    @media screen and (max-width:512px){
+        a.navbar-brand{
+           font-size:20px;
+       }
+    }
+    
+  </style>    
+    
+</head>
+<body>
+<nav class="navbar navbar-inverse" style="background-color:black; font-size:25px; width:100%;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#" style="font-size:25px;"><i>CSE POINT</i></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<section>
+ <nav id="ad">
+   <ul style="list-style-type:none;">
+    
+    <li><a href="#1">Introduction</a></li><hr>
+    <li><a href="#2">Editors</a></li><hr>
+    <li><a href="#3">Basic</a></li><hr>
+    <li><a href="#">Elements</a></li><hr>
+    <li><a href="#">Attributes</a></li><hr>
+    <li><a href="#">Headings</a></li><hr>
+    <li><a href="#">Paragraphs</a></li><hr>
+    <li><a href="#">Styles</a></li><hr>
+    <li><a href="#">Formatting</a></li><hr>
+    <li><a href="#">Quotations</a></li><hr>
+   </ul>
+ </nav>
+ <article>
+  
+  <h1 id="1"><u>HTML INTRODUCTION</u></h1>
+   <h2>What is HTML?</h2>  
+   <p>HTML is stands for hyper markup language</p>
+   <p>HTML is language for making a web page</p>
+   <p>HTML is easy to learn -You will enjoy it!</p> 
+   <p>HTML contists of a series of elements</p>
+   <p>HTML elements tell the browser how to display the contenet</p><hr><hr><hr><hr>
+   <h1 id="2"><u>HTML EDITORS</u></h1>
+   <h2>Learn HTML Using Notepad or TextEdit</h2>
+   <p>Wed pages can be created and modified by using professional HTML editors</p>
+   <p>However,for learning HTML we recommend a simple text editor like Notepad(PC) or TextEdit(Mac).</p>
+   <p>We beleive in that using a simple text editor is a good way to learn HTML</p>
+   <h3>Follows the Steps</h3>
+   <pre >
+Step 1 : Open Notepad(PC) or TextEdit(Mac)
+Step 2 : Write Some HTML Code
+Step 3 : Save The HTML Page with <b>.html</b> Extension
+Step 4 : View The HTMl Page in Your Browser
+   </pre><hr><hr><hr><hr>
+   <h1 id="3"><u>HTML BASIC</u></h1>
+    <p>In this chapter we will show some basic HTML examples</p>
+    <p>Don't worry if we use tags you have not learned about yet</p>
+   <h2>HTML Documents</h2>
+    <p>All HTML documents must start with a document type declaration: &lt;!DOCTYPE html&gt;<p>
+
+    <p>The HTML document itself begins with &lt;html&gt; and ends with &lt;/html&gt;</p>
+
+     <p>The visible part of the HTML document is between &lt;body&gt; and &lt;body&gt;</p>
+    <h3>Example </h3>
+    <pre>
+      <code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+&lt;h1&gt;My First Heading&lt;/h1&gt;
+&lt;p&gt;My first paragraph.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+      </code>
+     </pre>
+     <h2>The &lt;!DOCTYPE&gt; Declaration</h2>
+     <p>The &lt;!DOCTYPE&gt; declaration represents the document type, and helps browsers to display web pages correctly</p>
+
+     <p>It must only appear once, at the top of the page (before any HTML tags)</p>
+
+     <p>The &lt;!DOCTYPE&gt; declaration is not case sensitive</p>
+
+     <p>The &lt;!DOCTYPE&gt; declaration for HTML5 is:</p>
+     <pre>
+&lt;!DOCTYPE&gt;
+     </pre>
+     <h2>HTML Headings</h2>
+     <p>HTML headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags</p>
+
+     <p>&lt;h1&gt; defines the most important heading.&lt;h6&gt; defines the least important heading</p> 
+      
+  
+ </article>
+</section>
+ 
+
+  
+
+
+</body>
+</html>
